@@ -59,17 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,6 +79,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HauntedMansion.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FinalMangoWater.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boardeddoor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doors.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorwindow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hauntedmansion2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\johnporkmad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poisonwater.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stairs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\johnporksleeping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixkit-achievement-bell-600.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixkit-losing-bleeps-2026.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vine-boom.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vine-boom.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
